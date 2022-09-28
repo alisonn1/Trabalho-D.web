@@ -1,0 +1,18 @@
+body{
+    background-image:url("../img/paisagem\ salvador.jfif");
+    background-size: cover; 
+}
+.Navbar{
+    text-align: right; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+    position: relative;
+    top: 1px;
+    margin: 5px;
+    
+}
+.Navbar a {
+    color: black;
+    text-decoration:none;
+}
