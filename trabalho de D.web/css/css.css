@@ -5,10 +5,10 @@ body{
 .Navbar{
     text-align: right; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     color: black;
     position: relative;
-    top: 1px;
+    top: 0px;
     margin: 5px;
     
 }
@@ -16,3 +16,7 @@ body{
     color: black;
     text-decoration:none;
 }
+.Navbar a:hover {
+    color: aquamarine;
+}
+//
