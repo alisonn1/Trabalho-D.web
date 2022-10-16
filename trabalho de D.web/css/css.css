@@ -1,27 +1,42 @@
 body{
-background-image:linear-gradient(to right, #C7CFD9, #A6A3A1);
+    background-color:whitesmoke;
+    width:100%;
+    margin:0 auto;
 }
-.Navbar{
-    text-align: right; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    position: relative;
-    top: 0px;
-    margin: 0px;
-    text-align: center;
-    
+header{
+    background-color:rgb(157, 178, 216);
 }
-.Navbar a {
+.navegacao{
+    overflow:hidden;
+}
+.navegacao a{
+    float:none;
+    display:block;
+    color:rgb(0, 0, 0);
     text-decoration:none;
-    color: black;
-    
-}
-.Navbar a:hover {
-    color:wheat;
-
-}
-
-.bruno{
-    background-color:aliceblue;
+    text-align:center; 
     padding:5px;
+    font-size:50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navegacao a:hover{
+    color:brown;
+    background-color:black;
+}
+.video{
+    padding: 40px 15px 15px 15px;
+    text-align: center;
+}
+.rodape{
+    color:rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:13px;
+    text-align:center;
+}
+@media screen and (max-widht:800px){
+    .principal, .conteudo{
+        width:100%;
+        padding:0;
+    }
+    
 }
