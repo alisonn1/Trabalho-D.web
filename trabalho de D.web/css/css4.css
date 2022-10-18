@@ -6,10 +6,10 @@ body{
 header{
     background-color:rgb(157, 178, 216);
 }
-.navegacao2{
+.navegacao4{
     overflow:hidden;
 }
-.navegacao2 a{
+.navegacao4 a{
     float:none;
     display:block;
     color:rgb(0, 0, 0);
@@ -19,52 +19,43 @@ header{
     font-size:40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.navegacao2 a:hover{
+.navegacao4 a:hover{
     color:brown;
     background-color:black;
 }
-.principal{
-    float:left;
-    padding:15px;
-}
-.praia.do.porto{
-    width:45%;
-    margin:10px 10px 10px 10px;
+.praia.do.porto1{
+    width:95%;
+    margin:10px 10px 10px 35px;
     padding:10px 10px 10px 10px;
     background-color:antiquewhite;
     text-align:center;
     font-size:15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-.elevador.lacerda{
-    width:45%;
-    margin:10px 10px 10px 10px;
+.elevador.lacerda1{
+    width:95%;
+    margin:10px 10px 10px 35px;
     padding:10px 10px 10px 10px;
     background-color:antiquewhite;
     text-align:center;
     font-size:15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-.lagoa.de.abaete{
+.lagoa.abaete1{
+    width:95%;
+    margin:10px 10px 10px 35px;
+    padding:10px 10px 10px 10px;
     background-color:antiquewhite;
-    margin: 0px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
     text-align:center;
     font-size:15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    float: right;
-    width:45%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-.forte.sao.marcelo{
+.forte.sao.marcelo1{
+    width:95%;
+    margin:10px 10px 10px 35px;
+    padding:10px 10px 10px 10px;
     background-color:antiquewhite;
-    margin: 0px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
     text-align:center;
     font-size:15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    float: right;
-    width:45%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
-
-
