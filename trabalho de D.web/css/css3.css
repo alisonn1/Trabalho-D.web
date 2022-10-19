@@ -2,9 +2,11 @@ body{
     background-color:whitesmoke;
     width:100%;
     margin:0 auto;
+    text-align:center;
+    font-size:150%;
 }
 header{
-    background-color:rgb(157, 178, 216);
+    background-color:rgb(185, 213, 240);
 }
 .navegacao3{
     overflow:hidden;
@@ -22,4 +24,10 @@ header{
 .navegacao3 a:hover{
     color:brown;
     background-color:black;
+}
+.video{
+    padding:10px 10px 10px 10px;
+}
+.video.video{
+    padding:10px 10px 10px 10px;
 }

@@ -4,7 +4,7 @@ body{
     margin:0 auto;
 }
 header{
-    background-color:rgb(157, 178, 216);
+    background-color:rgb(185, 213, 240);
 }
 .navegacao2{
     overflow:hidden;
@@ -23,28 +23,20 @@ header{
     color:brown;
     background-color:black;
 }
-.principal{
-    float:left;
-    padding:15px;
-}
-.praia.do.porto{
-    width:45%;
-    margin:10px 10px 10px 10px;
-    padding:10px 10px 10px 10px;
-    background-color:antiquewhite;
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    width: 900px;
     text-align:center;
-    font-size:15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.elevador.lacerda{
-    width:45%;
-    margin:10px 10px 10px 10px;
-    padding:10px 10px 10px 10px;
-    background-color:antiquewhite;
-    text-align:center;
-    font-size:15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+  }
 .lagoa.de.abaete{
     background-color:antiquewhite;
     margin: 0px 10px 10px 10px;
@@ -55,16 +47,19 @@ header{
     float: right;
     width:45%;
 }
-.forte.sao.marcelo{
-    background-color:antiquewhite;
-    margin: 0px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+    width: 900px;
     text-align:center;
-    font-size:15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    float: right;
-    width:45%;
-}
+  }
 
 
 
